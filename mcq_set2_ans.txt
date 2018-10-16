@@ -1,0 +1,17 @@
+1)prepareStatement()
+2)b
+3)b
+4)c
+5)a,b,c,d
+6)a
+7)The code compiles and executes successfully..! Prints “m1 method of class A2”
+8)b
+9)b
+10)getConnection()
+11)
+Inside Y’s constructor
+Inside Z’s constructor 
+12)Compilation Error
+13)a,d,e
+14)c 
+15)b
