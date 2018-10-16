@@ -1,0 +1,98 @@
+﻿1)_____ method is used for PreparedStatement Object.
+2)Which of the following classes is not implemented from the Collection interface?
+a) TreeSet
+b) HashTable
+c) Vector
+d) Linked List
+3)Which of the following is a class?
+a) Collection
+b) Collections  
+4)Which of the following does not accept duplicate values?
+a) ArrayList
+b) LinkedList
+c) TreeSet
+d) Vector
+5)Identify the implicit objects in JSP
+a) request	 
+b) response	
+c) out	
+d) session	
+e) application
+6)In one java source file, how many package statements can be used? 
+a) One 
+b) Two or more
+7)What will be the result, when you try to compile and execute.
+class A1 {
+protected void m1() {
+System.out.println(“m1 method of class A1”);
+}
+}
+class A2 extends A1 {
+public void m1() {
+System.out.println(“m1 method of class A2”);
+}
+public static void main(String[] args) {
+	A2 x = new A2();
+	x.m1();
+}
+}
+8)The doGet() or doPost() method of a Servlet are invoked by --------------------
+a)init() method
+b)service() method
+c)destroy() method
+9)--------------- is the deployment descriptor file for Servlets
+a)servlet-config.xml
+b)web.xml
+c)struts-config.xml
+10)To make a connection __________ method is used.
+11)What will be the result, if we try to compile and execute the following code :
+class Y  {
+  	Y( ) { 
+		System.out.println(“Inside Y’s Constructor”);  }  }
+
+class Z extends Y {
+  	Z(){ 
+		System.out.println(“Inside Z’s Constructor”);  }  }
+
+class OrderOfConstructorCallDemo{
+	public static void main(String args[]){
+     		Z z = new Z();  
+	} 
+}
+12)What will be the result, if we try to compile and execute the following code :
+class A1 {
+	 void m1() {
+		System.out.println(“In method m1 of A1”);
+	}	
+}
+class A2 extends A1 {
+	int m1() {
+		return 100;
+	}
+	public static void main(String[] args) {
+		A2 x = new A2();
+		x.m1();
+	}
+}
+13)Pick up the valid methods from the following list, using which we can get an HttpSession object.
+a)request.getSession()
+b)request.getSession(“true”)
+c)request.getSession(“false”)
+d)request.getSession(true)
+e)request.getSession(false)
+f)request.getSession(1);
+14)Which is not a correct inbuilt java package? 
+a)java.io 
+b)java.sql
+c)java.dbms
+d)java.net
+15)Which is the correct usage of import statement? 
+a) import java.*; 
+b) import java.lang.*; 
+c) import *; 
+d) import *.*; 
+
+
+
+
+
